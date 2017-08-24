@@ -200,7 +200,7 @@ Same options as [buyByProductId](#buybyproductid).
 degiro.searchProduct({text: 'GOOG'})).then(console.log);
 /*
 { offset: 0,
-  data:
+  products:
    [ { vwdIdentifierType: 'issueid',
        productTypeId: 1,
        symbol: 'GOOGL',
